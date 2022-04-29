@@ -1,0 +1,73 @@
+.stage {
+	width: 1350px;
+	height: 650px;
+	position: relative;
+}
+.elephante {
+	height: 200px;
+	bottom: 50px;
+	right: 400px;
+	position: absolute;
+	animation: elephante 5s infinite alternate-reverse ;
+}
+.bear{
+	height: 150px;
+	top: 55px;
+	right: 5px;
+	position: absolute;
+	animation: bearanime 10s infinite linear ;
+}
+.rope{
+	width: 2000px;
+	top: 125px;
+	/*right: 500px;*/
+	position: absolute;
+	height: 150px;
+}
+.clown{
+	height: 150px;
+	bottom: 230px;
+	left: 600px;
+	position: absolute;
+	animation: clown 3s infinite linear alternate;
+}
+.monkey{
+	height: 150px;
+	top: 0px;
+	left: 150px;
+	position: absolute;
+	animation: monkey 7s infinite linear;
+}
+
+/*@keyframes animation*/
+
+@keyframes bearanime {
+	0%{right: 0}
+	10%{right: 10%}
+    25%{right: 25%}
+    40%{right: 40%}
+    50%{right: 50%}
+    65%{right: 65%}
+    80%{right: 80%}
+    90%{right: 90%}
+    100%{right: 100%}
+
+}
+@keyframes elephante {
+	0%{right: 0}
+	10%{right: 10%}
+    25%{rightt: 25%}
+  }
+  @keyframes monkey{
+  	0%{left: 0}
+	10%{left: 10%}
+    25%{left: 25%}
+
+  }
+  @keyframes clown {
+      0%{left: 50%}
+      60%{right: 60%}
+  }
+  
+     
+
